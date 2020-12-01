@@ -11,14 +11,16 @@ public class RotateImage {
          * Time Complexity O(N^2+N(N/2)) == O(N^2)
          * Space Complexity O(1)
          */
+
+        // generate transpose of matrix
         for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix.length; j++) {
+            for (int j = i+1; j < matrix.length; j++) {
                 int temp = matrix[i][j];
                 matrix[i][j] = matrix[j][i];
                 matrix[j][i] = temp;
             }
         }
-
+        //swap column wise
         for (int i = 0; i < matrix.length; i++) {
             int st = 0;
             int end = matrix.length - 1;
