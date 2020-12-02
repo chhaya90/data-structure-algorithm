@@ -1,4 +1,4 @@
-package com.java.algorithms.arrays;
+package com.algorithms.arrays;
 
 /**
  * You are given an n x n 2D matrix representing an image, rotate the image by 90 degrees (clockwise). You have to rotate the image in-place, which

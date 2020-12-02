@@ -1,4 +1,4 @@
-package com.java.algorithms.strings;
+package com.algorithms.strings;
 
 /**
  * Given an input string , reverse the string word by word.

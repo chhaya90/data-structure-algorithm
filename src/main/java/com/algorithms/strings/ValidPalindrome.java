@@ -1,4 +1,4 @@
-package com.java.algorithms.strings;
+package com.algorithms.strings;
 
 
 /**
